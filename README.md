@@ -4,10 +4,10 @@ A module that helps the cli display's lid sensor work correctly on GSIs. It also
 This module has been tested on the latest Android 12 phh GSI as of writing, but is not guaranteed to work on future or past GSIs.
 
 What the module does:
-- Prevents the lid sensor from turning off the main display when closing, which can crash the entire system (more or less).
+- Hooks into sleepDisplayGroupNoUpdateLocked() in the PowerManagerService class to block the display from sleeping due to the lid switch, which would crash the entire system (more or less).
 
 Bugs:
-- the display will not sleep when the lid is closed. This is better than the system crashing, but is still not ideal.
+- the display will not sleep when the lid is closed. This is better than the system crashing, but is still not ideal. I will be trying to improve this.
 - more that I'm probably missing...
 
 Other things:
