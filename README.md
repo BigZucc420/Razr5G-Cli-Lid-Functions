@@ -15,8 +15,8 @@ Other things:
 - this module was tested using LSPosed (https://github.com/LSPosed/LSPosed)
 - activate this module on "System Framework" then reboot
 - this module is meant to be used in combination with these two magisk modules:
-	- https://github.com/BigZucc41/Razr5G-Synaptics-Touchscreen-Device-Associations
-	- https://github.com/BigZucc41/Razr5G-Foldable-Device-Fixes
+	- https://github.com/BigZucc420/Razr5G-Synaptics-Touchscreen-Device-Associations
+	- https://github.com/BigZucc420/Razr5G-Foldable-Device-Fixes
 
 Sources:
 - Android Open Source Project (https://cs.android.com)
